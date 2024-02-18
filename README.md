@@ -21,7 +21,7 @@ conda activate clif
 We first fine-tuning the customized concepts with contrastive learning.
 
 ```
-bash run_train_clif.sh
+bash scripts/run_train_clif.sh
 ```
 
 ### Step 2:
@@ -29,7 +29,7 @@ bash run_train_clif.sh
 We then perform text inversion on customization concepts to encode visual details into token embeddings
 
 ```
-bash run_train_ti.sh
+bash scripts/run_train_ti.sh
 ```
 
 ### Step 3:
@@ -37,7 +37,7 @@ bash run_train_ti.sh
 Finally we train lora and labeling together
 
 ```
-bash run_train_load_ti_do_lora.sh
+bash scripts/run_train_load_ti_do_lora.sh
 ```
 
 ## Evaluation
