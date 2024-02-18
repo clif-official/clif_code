@@ -26,8 +26,6 @@ initializer_tokens="
     monk,monk,monk,monk,monk,monk,monk,monk
 "
 
-# --train_text_encoder \
-# 训练参数
 TRAIN_ARGS="
     --train_stage="do_ti" \
     --learnable_property="object" \
@@ -43,11 +41,9 @@ TRAIN_ARGS="
     --seed=42 \
 "
 
-# 读取显卡数量
 IFS=', ' read -r -a devices <<< "$CUDA_VISIBLE_DEVICES"
 num_devices=${#devices[@]}
 
-# 分布式参数
 DIST_ARGS="
     --mixed_precision fp16 \
     --num_cpu_threads_per_process 4 \
