@@ -9,7 +9,7 @@ This repository contains the implementation of the paper:
 
 <div>
 <span class="author-block">
-<a  target="_blank">Wang Lin</a><sup>1</sup></span>,
+<a  target="_blank">Wang Lin</a><sup>1,*</sup></span>,
 <span class="author-block">
 <a  target="_blank">Jingyuan Chen</a><sup>1</sup></span>,
 <span class="author-block">
