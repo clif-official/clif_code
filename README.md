@@ -72,7 +72,7 @@ bash run_train_clif.sh
 
 ### Step 2:
 
-We then perform text inversion on customization concepts to encode visual details into token embeddings
+We then perform text inversion on customized concepts to encode visual details into token embeddings
 
 ```
 bash run_train_ti.sh
@@ -80,7 +80,7 @@ bash run_train_ti.sh
 
 ### Step 3:
 
-Finally we train lora and labeling together
+Finally we train lora and token embeddings together
 
 ```
 bash run_train_lora.sh
