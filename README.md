@@ -60,16 +60,6 @@ pip install diffusers==0.23.1
 conda activate clif
 ```
 
-### Setup
-
-Our code mainly bases on [Diffusers](https://github.com/huggingface/diffusers).
-To set up our environment, please run:
-
-```shell
-conda env create -f environment.yaml
-conda activate sd
-```
-
 ## Training
 
 ### Step 1:
