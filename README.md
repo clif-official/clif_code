@@ -44,8 +44,8 @@ This repository contains the implementation of the paper:
                   <sup>1</sup>  Zhejiang University &nbsp;&nbsp;&nbsp;
                   <sup>2</sup>  Huawei Cloud Computing &nbsp;&nbsp;&nbsp;
 <sup>3</sup> Nanyang Technological University &nbsp;&nbsp;&nbsp               
-                    <sup>4</sup> Tsinghua University </span>
-<sup>5</sup> Harbin Institute of Technology &nbsp;&nbsp;&nbsp 
+                    <sup>4</sup> Tsinghua University &nbsp;&nbsp;&nbsp
+<sup>5</sup> Harbin Institute of Technology  </span>
 </div>
 
 
