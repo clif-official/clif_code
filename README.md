@@ -42,7 +42,7 @@ This repository contains the implementation of the paper:
 <div class="is-size-5 publication-authors">
                   <span class="author-block">
                   <sup>1</sup>  Zhejiang University &nbsp;&nbsp;&nbsp;
-                      <sup>2</sup>  skywork ai &nbsp;&nbsp;&nbsp;
+                      <sup>2</sup>  Skywork AI，Singapore &nbsp;&nbsp;&nbsp;
                       <sup>3</sup> Nanyang Technological University &nbsp;&nbsp;&nbsp  
                   <sup>4</sup>  Huawei Cloud Computing &nbsp;&nbsp;&nbsp;
                     <sup>5</sup> Tsinghua University &nbsp;&nbsp;&nbsp
