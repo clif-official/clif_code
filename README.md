@@ -101,20 +101,11 @@ This code is builds on the code from the [diffusers](https://github.com/huggingf
 
 ```tex
 
-@InProceedings{pmlr-v235-bachmann24a,
-  title = 	 {The Pitfalls of Next-Token Prediction},
-  author =       {Bachmann, Gregor and Nagarajan, Vaishnavh},
-  booktitle = 	 {Proceedings of the 41st International Conference on Machine Learning},
-  pages = 	 {2296--2318},
-  year = 	 {2024},
-  editor = 	 {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix},
-  volume = 	 {235},
-  series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {21--27 Jul},
-  publisher =    {PMLR},
-  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v235/main/assets/bachmann24a/bachmann24a.pdf},
-  url = 	 {https://proceedings.mlr.press/v235/bachmann24a.html},
-  abstract = 	 {Can a mere next-token predictor faithfully model human thinking? Our work is aimed at crystallizing this intuitive concern, which is currently fragmented in the literature. First, we emphasize isolating the two phases of next-token prediction that are often conflated: autoregression during inference vs. teacher-forcing during training. We argue that the previously-identified problem of "exponential error accumulation" is a symptom of autoregressive inference. But more concerningly, we identify that teacher-forcing can let the model fit the training data by cheating, causing total in-distribution failure. We design a minimal planning task where empirically both the Transformer and the Mamba architecture fail in this manner - remarkably, despite the task being easy to learn. Overall, our work consolidates these and other essential arguments surrounding next-token prediction. We hope this effort can ground future discussions and inspire explorations beyond the next-token prediction paradigm.}
+@article{lin2024non,
+  title={Non-confusing Generation of Customized Concepts in Diffusion Models},
+  author={Lin, Wang and Chen, Jingyuan and Shi, Jiaxin and Zhu, Yichen and Liang, Chen and Miao, Junzhong and Jin, Tao and Zhao, Zhou and Wu, Fei and Yan, Shuicheng and others},
+  journal={arXiv preprint arXiv:2405.06914},
+  year={2024}
 }
 
 ```
