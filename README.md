@@ -101,11 +101,21 @@ This code is builds on the code from the [diffusers](https://github.com/huggingf
 
 ```tex
 
-@article{lin2024non,
-  title={Non-confusing Generation of Customized Concepts in Diffusion Models},
-  author={Lin, Wang and Chen, Jingyuan and Shi, Jiaxin and Zhu, Yichen and Liang, Chen and Miao, Junzhong and Jin, Tao and Zhao, Zhou and Wu, Fei and Yan, Shuicheng and others},
-  journal={arXiv preprint arXiv:2405.06914},
-  year={2024}
+
+@InProceedings{pmlr-v235-lin24d,
+  title = 	 {Non-confusing Generation of Customized Concepts in Diffusion Models},
+  author =       {Lin, Wang and Chen, Jingyuan and Shi, Jiaxin and Zhu, Yichen and Liang, Chen and Miao, Junzhong and Jin, Tao and Zhao, Zhou and Wu, Fei and Yan, Shuicheng and Zhang, Hanwang},
+  booktitle = 	 {Proceedings of the 41st International Conference on Machine Learning},
+  pages = 	 {29935--29948},
+  year = 	 {2024},
+  editor = 	 {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix},
+  volume = 	 {235},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {21--27 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v235/main/assets/lin24d/lin24d.pdf},
+  url = 	 {https://proceedings.mlr.press/v235/lin24d.html},
 }
+
 
 ```
